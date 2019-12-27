@@ -7,7 +7,7 @@ func TestQuicksort(t *testing.T) {
 	testvalues := [5]int{2, 5, 3, 1, 4}
 
 	QuickSort(testvalues[:])
-	if testvalues == expected {
+	if testvalues != expected {
 		t.Errorf("Array %v is not sorted!", testvalues)
 	}
 }
