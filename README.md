@@ -2,7 +2,7 @@
 
 A Simple Repo to Test Github Actions.
 
-# Tested
+# Tested Features
 
 * build golang apps
 * release on github every tag
